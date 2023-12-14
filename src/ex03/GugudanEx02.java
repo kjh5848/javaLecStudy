@@ -12,10 +12,11 @@ public class GugudanEx02 {
 
             for (int j = 2; j <= 9; j++) {
                 //y += j; // y = y + j
-                System.out.print(i + "단은 " + (i * j) + "입니다.\n");
+                System.out.print("(" + j + "단은 " + (i * j) + "입니다." + ")" + " ");
 
             }
             System.out.println("\t");
+
         }
 
     }
