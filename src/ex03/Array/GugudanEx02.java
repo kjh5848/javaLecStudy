@@ -1,4 +1,4 @@
-package ex03;
+package ex03.Array;
 
 /**
  * 2~9단까지 출력되는 프로그램을 만드시오

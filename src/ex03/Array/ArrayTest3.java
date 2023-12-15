@@ -1,4 +1,4 @@
-package ex03;
+package ex03.Array;
 
 public class ArrayTest3 {
     public static void main(String[] args) {
