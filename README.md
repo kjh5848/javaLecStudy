@@ -9,3 +9,7 @@
 - for
 - whlie
 - 배열
+- 2중 배열
+- ArrayList
+- LinkedList
+- BubbleSort

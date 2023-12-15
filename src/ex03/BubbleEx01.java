@@ -27,14 +27,13 @@ package ex03;
  * 1. 2,3,4,5,8
  */
 public class BubbleEx01 {
-    public static void main(String[] args) {
-        int[] arr = {5,8,2,4,3};
 
+    static void bubble(int[] arr) {
         final int N = arr.length;
 
         int y=0;
         int temp;
-        for (int loop = 1; loop < 5; loop++) { //
+        for (int loop = 1; loop < N; loop++) { //
             for (int i = 0; i < N-loop; i++) {
                 if(arr[i] > arr[i+1]){
                     temp = arr[i];
@@ -49,5 +48,15 @@ public class BubbleEx01 {
             System.out.print(arr[i]+"\t");
 
         }
+    }
+    public static void main(String[] args) {
+        int[] arr = {5,8,2,4,3};
+        BubbleEx01.bubble(arr); // 같은 클래스 안에 메소드가 같이 있으면 생략이 가능하다.
+
+        System.out.println("");
+        int[] arr2 = {100,200,555,666,777,8,46,5,5,2,2,1,5,44,7,7,7444,44,5,6,2,11};
+        bubble(arr2); // 같은 클래스 안에 메소드가 같이 있으면 생략이 가능하다.
+
+
     }
 }
