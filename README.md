@@ -13,3 +13,5 @@
 - ArrayList
 - LinkedList
 - BubbleSort
+- SelectedSort
+- 
