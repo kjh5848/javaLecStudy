@@ -14,4 +14,5 @@
 - LinkedList
 - BubbleSort
 - SelectedSort
+- BinarySearch
 - 
