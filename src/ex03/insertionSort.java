@@ -4,15 +4,22 @@ public class insertionSort {
     public static void main(String[] args) {
         int[] arr = {5, 1, 3, 2, 4};
 
-        int temp;
-        if (arr[0] > arr[1]) {
-            temp = arr[0];
-            arr[0] = arr[1];
-            arr[1] = temp;
+        int key,temp,i;
+        key = arr[0];
+        i = arr[1];
+
+        if (arr[key] > arr[key + 1]) {
+            arr[key + 1] = arr[key];
+            key = i;
         }
 
-//        if (arr[1]> arr[2]) {
-//
-//        }
+        if (arr[key + 1] > arr[key+2]) {
+            arr[key + 2] = arr[key + 1];
+
+            if ()
+        }
+
+
+
     }
 }
