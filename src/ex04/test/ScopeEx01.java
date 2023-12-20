@@ -13,9 +13,10 @@ public class ScopeEx01 {
 
     }
     int sum = 10;
-    static int sum = 20;
+    //static int sum = 20;
 
     void m2() {
+        System.out.println(n1);
         System.out.println("m2: "+ sum); // 결과 1
     }
 
