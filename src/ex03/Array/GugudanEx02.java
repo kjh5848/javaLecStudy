@@ -4,6 +4,11 @@ package ex03.Array;
  * 2~9단까지 출력되는 프로그램을 만드시오
  * 스캐너를 이용하여 입력받은 단만 출력하시오
  */
+class GuGu {
+
+}
+
+
 public class GugudanEx02 {
     public static void main(String[] args) {
         int y = 0;
@@ -16,8 +21,6 @@ public class GugudanEx02 {
 
             }
             System.out.println("\t");
-
         }
-
     }
 }
