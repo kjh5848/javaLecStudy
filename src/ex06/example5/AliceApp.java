@@ -2,7 +2,7 @@ package ex06.example5;
 
 //abstract class(추상클래스)는 Object가 아니다.
 //new 할 수 없다.
-// 상속을 받아야만 쓸 수 있다.,
+// 상속을 받아야만 쓸 수 있다.
 abstract class 판사{
     // public abstract void(추상메서드)
     public abstract void 심문();
