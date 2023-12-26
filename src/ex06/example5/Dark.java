@@ -1,6 +1,6 @@
-package ex06.example4;
+package ex06.example5;
 
-public class Dark extends  Protoss {
+public class Dark extends Protoss {
     String name;
 
     public Dark(String name) {

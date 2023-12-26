@@ -1,6 +1,6 @@
-package ex06.example4;
+package ex06.example5;
 
-public class Zealot extends  Protoss{
+public class Zealot extends Protoss {
     String name;
 
     public Zealot(String name) {

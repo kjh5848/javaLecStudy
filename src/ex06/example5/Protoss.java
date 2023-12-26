@@ -1,4 +1,4 @@
-package ex06.example4;
+package ex06.example5;
 
 public class Protoss {
     public void attack() {

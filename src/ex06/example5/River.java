@@ -1,6 +1,6 @@
-package ex06.example4;
+package ex06.example5;
 
-public class River  extends  Protoss{
+public class River  extends Protoss {
     String name;
     public River(String name) {
         this.name = name;

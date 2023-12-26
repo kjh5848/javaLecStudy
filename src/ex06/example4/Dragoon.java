@@ -1,6 +1,6 @@
-package ex06.example3;
+package ex06.example4;
 
-public class Dragoon {
+public class Dragoon extends  Protoss{
     String name;
 
     public Dragoon(String name) {
@@ -8,6 +8,6 @@ public class Dragoon {
     }
 
     public void attack() {
-        System.out.println("드라군이 공격한다"+ name);
+        System.out.println("드라군이 공격한다: "+ name);
     }
 }
