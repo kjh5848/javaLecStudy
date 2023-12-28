@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lombok.iml" filepath="$PROJECT_DIR$/Lombok.iml" />
       <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.main.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.test.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled1/untitled.untitled1.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled1/untitled.untitled1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled1/untitled.untitled1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled1/untitled.untitled1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled1/untitled.untitled1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled1/untitled.untitled1.test.iml" />
     </modules>
   </component>
 </project>

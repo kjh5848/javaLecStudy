@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/Downloads/Java-Swing-BubbleGame-master/lib/lombok.jar" />
+        </processorPath>
+        <module name="Lombok" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Lombok" target="21" />
+      <module name="untitled" target="21" />
+      <module name="untitled.main" target="21" />
+      <module name="untitled.test" target="21" />
+      <module name="untitled.untitled1" target="21" />
+      <module name="untitled.untitled1.main" target="21" />
+      <module name="untitled.untitled1.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
