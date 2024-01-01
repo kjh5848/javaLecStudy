@@ -1,5 +1,7 @@
 package ex08.example;
 
+import java.util.Arrays;
+
 public class StringEx02 {
     public static void main(String[] args) {
         // 문서
@@ -10,9 +12,44 @@ public class StringEx02 {
 
         // username값과, password값 찾아보기
 
-        String username = url.substring(30, 34);
-        System.out.println(username);
-        String password = url.substring(44, 48);
-        System.out.println(password);
+
+        String[] p1 = url.split("\\?");
+        for (String P : p1) {
+            System.out.println(P);
+            String[] p2 = P.split("\\&");
+            for (String P2 : p2) {
+                System.out.println(P2);
+                String[] p3 = P2.split("=");
+                for (int i = 0; i < p3.length; i++) {
+                    if (p3[i].equals("username")) {
+                        System.out.println("username: " + p3[i+1]);
+                    } else if (p3[i].equals("password")) {
+                        System.out.println("password: " + p3[i+1]);
+                    }
+                }
+            }
+        }
+
+
+        String username;
+
+
+
+
+//            String[] p2 = url.split("\\&");
+//            for (String P1 : p2) {
+//                System.out.println(P);
+//            }
+//
+//            String[] p3 = url.split("\\=");
+//            for (String P1 : p3) {
+//                System.out.println(P);
+//            }
+
+
+
+
+
+
     }
 }
