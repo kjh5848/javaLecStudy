@@ -29,4 +29,6 @@
 - abstract
 - 인터페이스
 - interface
-- 
+- git reset, rebase
+- vim
+- Try/Catch
