@@ -32,3 +32,5 @@
 - git reset, rebase
 - vim
 - Try/Catch
+- 제네릭
+- 
