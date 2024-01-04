@@ -1,4 +1,4 @@
-package ex13;
+package ex13.generic;
 
 public class GenericMethodTest {
     public static <T> void printArray(T[] array) {
