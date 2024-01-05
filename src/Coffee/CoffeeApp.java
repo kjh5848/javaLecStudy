@@ -5,7 +5,7 @@ public class CoffeeApp {
         Barista barista = new Barista();
         Customer customer = new Customer(barista);
 
-        customer.order("아메리카노");
+        customer.order("ㅁㄴㅇㄹ");
         barista.makeCoffee();
     }
 }
