@@ -15,7 +15,9 @@ public class Server {
 
             System.out.println("클라이언트 연결됨");
             BufferedReader br = new BufferedReader(
-                    new InputStreamReader( new ServerSocket(10000).accept().getInputStream(),"UTF-8")
+                    new InputStreamReader(
+                            new ServerSocket(10000)
+                                    .accept().getInputStream(),"UTF-8")
             );
             while (true) {
                 String msg = br.readLine();
