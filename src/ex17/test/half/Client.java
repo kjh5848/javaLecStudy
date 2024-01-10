@@ -24,7 +24,6 @@ public class Client {
                     new InputStreamReader(
                             socket.getInputStream(),"UTF-8")
             );
-
             msg = br1.readLine();
             System.out.println(msg);
 

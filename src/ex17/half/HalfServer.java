@@ -35,7 +35,7 @@ public class HalfServer {
             }
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
 
 

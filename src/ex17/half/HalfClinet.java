@@ -3,7 +3,7 @@ package ex17.half;
 import java.io.*;
 import java.net.Socket;
 import java.nio.charset.Charset;
-
+// 수업한 코드
 public class HalfClinet {
     public static void main(String[] args) {
         try {
@@ -13,7 +13,7 @@ public class HalfClinet {
                     socket.getOutputStream(),
                     true);
 
-            pw.println("1");
+            pw.println("3");
 
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(
@@ -24,7 +24,7 @@ public class HalfClinet {
             System.out.println("서버로 부터 받은 메세지: " + responseMsg);
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
