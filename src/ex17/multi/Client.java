@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.Socket;
 import java.nio.charset.Charset;
 import java.util.Scanner;
-
+// 만든거
 public class Client {
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket("192.168.0.107", 65000);

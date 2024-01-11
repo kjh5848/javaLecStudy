@@ -12,7 +12,6 @@ public class HalfServer {
             ServerSocket serverSocket = new ServerSocket(20000);
             Socket socket = serverSocket.accept();
 
-
             BufferedReader bw = new BufferedReader(
                     new InputStreamReader(socket.getInputStream())
             );
